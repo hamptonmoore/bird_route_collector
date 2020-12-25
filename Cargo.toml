@@ -1,0 +1,11 @@
+[package]
+name = "bird_path_collector"
+version = "0.1.0"
+authors = ["hampton <me@hampton.pw>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.59"
+serde = { version = "1.0", features = ["derive"] }

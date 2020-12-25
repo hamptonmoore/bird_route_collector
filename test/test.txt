@@ -1,0 +1,197 @@
+2401:4900:52f6::/48  unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS45609i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 9498 45609
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-22] (100) [AS45609?]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 62513 174 9498 45609
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21001) (174,22013) (62513,10001)
+2401:4900:52f9::/48  unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS45609i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 9498 45609
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-22] (100) [AS45609?]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 62513 174 9498 45609
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21001) (174,22013) (62513,10001)
+240e:f7:a000::/35    unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS136188i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 4134 136188
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-19] (100) [AS136188i]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 62513 174 4134 136188
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21001) (174,22013) (62513,10001)
+2401:4900:52f8::/48  unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS45609i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 9498 45609
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-22] (100) [AS45609?]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 62513 174 9498 45609
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21001) (174,22013) (62513,10001)
+2606:e600:ffff::/48  unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS11608i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 4258 11608
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 207.66.224.1 AS11608
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-19] (100) [AS11608i]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 62513 174 7922 4258 11608
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.atomic_aggr:
+	BGP.aggregator: 207.66.224.1 AS11608
+	BGP.community: (174,21000) (174,22013) (62513,10001)
+2402:4000:23f8::/46  unicast [ifog_kansas 19:15:16.167 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS18001i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 18001
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+	BGP.large_community: (24115, 1000, 1) (24115, 1001, 1) (24115, 1002, 1) (24115, 1003, 38) (24115, 1004, 18001)
+                     unicast [burnt_whiskey 2020-12-20] (100) [AS18001i]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 62513 174 2914 18001
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21000) (174,22013) (62513,10001)
+2401:4900:52fb::/48  unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS45609i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 9498 45609
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-22] (100) [AS45609?]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 62513 174 9498 45609
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21001) (174,22013) (62513,10001)
+2401:4900:52fa::/48  unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS45609i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 9498 45609
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-22] (100) [AS45609?]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 62513 174 9498 45609
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21001) (174,22013) (62513,10001)
+2401:4900:52fd::/48  unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS45609i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 9498 45609
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-22] (100) [AS45609?]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 62513 174 9498 45609
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21001) (174,22013) (62513,10001)
+2401:4900:52fc::/48  unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS45609i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 9498 45609
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-22] (100) [AS45609?]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 62513 174 9498 45609
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21001) (174,22013) (62513,10001)
+2401:4900:52ff::/48  unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS45609i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 9498 45609
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-22] (100) [AS45609?]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 62513 174 9498 45609
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21001) (174,22013) (62513,10001)
+2401:4900:52fe::/48  unicast [ifog_kansas 2020-12-22 from 2a0c:9a40:100f:4c8::1] * (100/?) [AS45609i]
+	dev ifog
+	Type: BGP univ
+	BGP.origin: IGP
+	BGP.as_path: 34927 6939 9498 45609
+	BGP.next_hop: 2a0c:9a40:100f:4c8::1 fe80::c194:fb01
+	BGP.local_pref: 100
+	BGP.community: (34927,213)
+                     unicast [burnt_whiskey 2020-12-22] (100) [AS45609?]
+	via fe80::2 on burnt_whiskey
+	Type: BGP univ
+	BGP.origin: Incomplete
+	BGP.as_path: 62513 174 9498 45609
+	BGP.next_hop: :: fe80::2
+	BGP.local_pref: 100
+	BGP.community: (174,21001) (174,22013) (62513,10001)
