@@ -1,2 +1,4 @@
 /target
 test/*
+output.json
+small_output.json

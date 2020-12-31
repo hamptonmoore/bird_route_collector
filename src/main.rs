@@ -22,7 +22,7 @@ struct Route {
 struct AutonomousNetwork {
     asn: String,
     routes: Vec<Route>,
-    children: HashMap<String, AutonomousNetwork>
+    children: Vec<String>
 }
 
 fn main() {
@@ -36,11 +36,7 @@ fn main() {
         version: IpAddrVersion::V6,
         address: "::/0".to_string()
     };
-    let mut route_table = AutonomousNetwork {
-        asn: "root".to_string(),
-        routes: vec![],
-        children: HashMap::new()
-    };
+    let mut route_table: HashMap<String, AutonomousNetwork> = HashMap::new();
 
     for wrapped_line in reader.lines() {
         let line = wrapped_line.expect("issue reading line");
